@@ -14,3 +14,6 @@ Install-Module OSD -Force
 Write-Host  -ForegroundColor Cyan "Importing the sweet OSD PowerShell Module"
 Import-Module OSD -Force
 
+#Start OSDCloud ZTI the RIGHT way
+Write-Host  -ForegroundColor Cyan "Start OSDCloud with MY Parameters"
+Start-OSDCloud
